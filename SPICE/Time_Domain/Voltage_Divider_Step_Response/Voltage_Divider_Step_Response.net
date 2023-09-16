@@ -1,0 +1,7 @@
+* D:\_git\SPICE\Some_Spice_Simulations\SPICE\Time_Domain\Voltage_Divider_Step_Response.asc
+R1 Vin Vout 10k tol=5
+V1 Vin 0 PULSE(0V 20V 1m 1n 1n 1m)
+R2 Vout 0 20k tol=5
+.tran 0 2m 0 1ns
+.backanno
+.end
