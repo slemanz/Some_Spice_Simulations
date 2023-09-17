@@ -1,0 +1,10 @@
+* D:\_git\SPICE\Some_Spice_Simulations\SPICE\Time_Domain\Initial_Conditions_RC_Response\Initial_Conditions_RC_Response.asc
+R1 Vin Vout 80k tol=5
+V1 Vin 0 PULSE(0V 20V 1m 1n 1n 1m)
+R2 Vout 0 120k tol=5
+C1 Vout 0 1n
+.tran 0 2m 0
+.ic V(Vout)=12V
+;.ic V(Vout) = 20V
+.backanno
+.end
