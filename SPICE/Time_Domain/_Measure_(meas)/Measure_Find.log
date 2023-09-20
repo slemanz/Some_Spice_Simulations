@@ -1,0 +1,56 @@
+Circuit: * D:\_git\SPICE\Some_Spice_Simulations\SPICE\Time_Domain\_Measure_(meas)\Measure_Find.asc
+
+.OP point found by inspection.
+.step y=1000 x=1e-007
+.step y=10000 x=1e-007
+.step y=1000 x=2e-007
+.step y=10000 x=2e-007
+.step y=1000 x=3e-007
+.step y=10000 x=3e-007
+
+
+Measurement: vavg
+  step	AVG(v(out))	FROM	TO
+     1	0.501032	0	0.002
+     2	0.440786	0	0.002
+     3	0.501014	0	0.002
+     4	0.332725	0	0.002
+     5	0.500225	0	0.002
+     6	0.260724	0	0.002
+
+Measurement: above0.5
+  step	v(out)	at
+     1	0.5	6.92763e-005
+     2	0.5	0.000420858
+     3	0.5	0.000123774
+     4	0	0
+     5	0.5	0.000159037
+     6	0	0
+
+Measurement: cross0.5x3
+  step	v(out)	at
+     1	0.5	0.00106932
+     2	0.5	0.0012997
+     3	0.5	0.00112367
+     4	0	0
+     5	0.5	0.00115708
+     6	0	0
+
+
+Date: Wed Sep 20 19:52:42 2023
+Total elapsed time: 0.131 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2272
+traniter = 2272
+tranpoints = 1137
+accept = 1118
+rejected = 19
+matrix size = 3
+fillins = 0
+solver = Normal
+Matrix Compiler1:       3 opcodes  0.0/0.0/[0.0]
+Matrix Compiler2: 175 bytes object code size  0.0/0.0/[0.0]
+
