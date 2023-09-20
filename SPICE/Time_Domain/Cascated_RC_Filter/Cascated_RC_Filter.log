@@ -1,0 +1,33 @@
+Circuit: * D:\_git\SPICE\Some_Spice_Simulations\SPICE\Time_Domain\Cascated_RC_Filter\Cascated_RC_Filter.asc
+
+.OP point found by inspection.
+.step x=1e-007 y=1000 z=1000
+.step x=2e-007 y=1000 z=1000
+.step x=3e-007 y=1000 z=1000
+.step x=1e-007 y=10000 z=1000
+.step x=2e-007 y=10000 z=1000
+.step x=3e-007 y=10000 z=1000
+.step x=1e-007 y=1000 z=10000
+.step x=2e-007 y=1000 z=10000
+.step x=3e-007 y=1000 z=10000
+.step x=1e-007 y=10000 z=10000
+.step x=2e-007 y=10000 z=10000
+.step x=3e-007 y=10000 z=10000
+
+Date: Wed Sep 20 16:42:22 2023
+Total elapsed time: 0.867 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 9626
+traniter = 9626
+tranpoints = 4814
+accept = 3814
+rejected = 1000
+matrix size = 4
+fillins = 0
+solver = Normal
+Matrix Compiler1:       6 opcodes  0.1/[0.0]/0.0
+Matrix Compiler2:      21 opcodes  0.1/[0.1]/0.1
+
